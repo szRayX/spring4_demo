@@ -1,0 +1,53 @@
+bin
+target
+.settings
+.project
+.classpath
+.svn
+
+#Eclipse project files
+.project
+.classpath
+.settings
+
+#IntelliJ IDEA project files and directories
+*.iml
+*.ipr
+*.iws
+.idea/
+logs/
+#Geany project file
+.geany
+
+#KDevelop project file and directory
+.kdev4/
+*.kdev4
+
+#Build targets
+/target
+*/target
+
+#Report directories
+/reports
+*/reports
+
+#Mac-specific directory that no other operating system needs.
+.DS_Store
+
+/src/main/webapp/mobileActivity/node_modules/
+/src/main/webapp/mobileActivity/spm_modules/
+/src/main/webapp/reimbursement/node_modules/
+/src/main/webapp/reimbursement/spm_modules/
+
+
+#npm spm
+/node_modules
+*/node_modules
+/spm_modules
+*/spm_modules
+
+*.log
+/src/main/webapp/visitor/spm_modules/
+/src/main/webapp/visitor/node_modules/
+/src/main/webapp/resource/node_modules/
+/src/main/webapp/visitor/package-lock.json
